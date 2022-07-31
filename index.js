@@ -19,7 +19,6 @@ function App(){
     setTodos(newTodos);
   }
   const removeTodo = index => {
-    
     let temp = [...todos];    
     temp.splice(index, 1);
     setTodos(temp);
@@ -27,10 +26,14 @@ function App(){
 
   return(
     <>
+    <div className="app">
+    <div className="todo-list">
       {todos.map((todo, i) => (
        <Todo index={i} todo={todo} remove={removeTodo}/>
       ))}
       <TodoForm addTodo={addTodo} />
+      </div>
+      </div>
     </>
   );
 }

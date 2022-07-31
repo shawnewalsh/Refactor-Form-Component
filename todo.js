@@ -3,6 +3,6 @@ function Todo({todo,index,remove}) {
         remove(index);
     }
     return  <div className="todo" key={index} id={index} 
-    onClick={handle}>{todo.text} (-) </div>
+    onClick={handle}>{index + 1} - {todo.text} (-) </div>
 
 }
