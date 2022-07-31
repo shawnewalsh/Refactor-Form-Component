@@ -6,6 +6,10 @@
 Added a number for each todo
 Style changes (colors)
 
+###Installation 
+Open folder with xcode
+Browse index.html with "live server" or other xcode plugin
+
 ####Future Enhancements / Roadmap
 Be able to strikethrough Tasks instead of completely remove
 Ability to prioritize tasks
